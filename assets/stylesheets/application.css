@@ -1,0 +1,14 @@
+body {
+  padding-top: 70px;
+}
+
+/* Stretches the images in thumbnail blocks to fill the available width - all the thumbnail images need to have the same aspect ratio or they'll look weird. */
+.thumbnail > img {
+  min-width: 100%;
+}
+
+footer#main-footer {
+  margin: 50px auto;
+  text-align: center;
+  font-size: 11px;
+}
